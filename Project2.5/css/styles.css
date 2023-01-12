@@ -16,10 +16,24 @@
 
 .square2 {
     display: flex;
+    position: absolute;
     border: .25pt solid rgb(255, 255, 255);
     width: 42.857143vw;
     height: 42.857143vh;
     margin: auto;
+    margin-top: 14.285714vh;
+    margin-left: 14.285714vw;
+}
+
+.square3 {
+    display: flex;
+    position: absolute;
+    border: .25pt solid rgb(255, 255, 255);
+    width: 14.285714vw;
+    height: 14.285714vh;
+    margin: auto;
+    margin-top: 28vh;
+    margin-left: 28vw;
 }
 
 .line1 {
@@ -28,6 +42,16 @@
     width: 2.5vw;
     height: 42.857143vh;
     margin: auto;
+    z-index: 1;
+}
+
+.line2 {
+    display: flex;
+    background-color: rgb(221, 51, 51);
+    width: .5vw;
+    height: 14.285714vh;
+    margin: auto;
+    z-index: 2;
 }
 
 
