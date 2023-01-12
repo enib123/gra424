@@ -16,7 +16,7 @@
 
 .square2 {
     display: flex;
-    border: .25pt solid rgb(207, 207, 207);
+    border: .25pt solid rgb(196, 195, 195);
     width: 42.857143vw;
     height: 42.857143vh;
     margin: auto;
