@@ -8,7 +8,7 @@
 
 .square1 {
     display: flex;
-    background-color: black;
+    border: .25pt solid black;
     width: 71.428571vw;
     height: 71.428571vw;
     margin: auto;
@@ -16,7 +16,7 @@
 
 .square2 {
     display: flex;
-    background-color: white;
+    border: .25pt solid black;
     width: 42.857143vw;
     height: 42.857143vw;
     margin: auto;
@@ -30,29 +30,5 @@
     margin: auto;
 }
 
-.square4 {
-    display: flex;
-    background-color: white;
-    width: 71.428571vw;
-    height: 71.428571vw;
-    margin: auto;
-    border: .25px solid black;
-}
-
-.square5 {
-    display: flex;
-    background-color: black;
-    width: 42.857143vw;
-    height: 42.857143vw;
-    margin: auto;
-}
-
-.square6 {
-    display: flex;
-    background-color: white;
-    width: 14.285714vw;
-    height: 14.285714vw;
-    margin: auto;
-}
 
 
