@@ -4,10 +4,13 @@
     background-color: black;
     color:white;
     letter-spacing: 1pt;
+    font-family: Helvetica, sans-serif;
 }
 
 .classes {
     margin-left: 30pt;
     margin-top: 20pt;
+    font-family: Helvetica, sans-serif;
 }
+
 
