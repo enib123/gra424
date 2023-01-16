@@ -47,11 +47,12 @@
 
 .line2 {
     display: flex;
-    background-color: rgb(221, 51, 51);
-    width: .5vw;
+    background-color: rgb(255, 255, 255);
+    width: 1vw;
     height: 14.285714vh;
     margin: auto;
     z-index: 2;
+    transform:rotate(12deg)
 }
 
 
