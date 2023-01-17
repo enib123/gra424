@@ -40,10 +40,13 @@
     display: flex;
     position: absolute;
     border: .25pt solid rgb(255, 255, 255);
-    width: 71.428571vw;
-    height: 71.428571vh;
+    width: 50vh;
+    height: 50vh;
     margin: auto;
     z-index: 4;
+    margin-top: 11.285714vh;
+    margin-left: 14.285714vw;
+    margin-right: 14.285714vw;
 }
 
 .line1 {
@@ -69,14 +72,21 @@
     display: flex;
     background-color: rgb(0, 0, 0);
     width: 2.5vw;
-    height: 71.428571vh;
+    height: 50vh;
     transform: rotate(25deg);
     margin: auto;
     z-index: 1;
 }
 
 
-
+.lines {
+    display: flex;
+    margin: auto;
+    width: 71.428571vw;
+    height: 71.428571vh;
+    object-fit: fill;
+    margin-bottom: 5vw;
+}
 
 
 
