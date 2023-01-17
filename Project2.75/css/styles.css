@@ -40,11 +40,10 @@
     display: flex;
     position: absolute;
     border: .25pt solid rgb(255, 255, 255);
-    width: 42.857143vw;
-    height: 42.857143vh;
+    width: 71.428571vw;
+    height: 71.428571vh;
     margin: auto;
-    margin-top: 14.285714vh;
-    margin-left: 14.285714vw;
+    z-index: 4;
 }
 
 .line1 {
@@ -53,7 +52,7 @@
     width: 2.5vw;
     height: 42.857143vh;
     margin: auto;
-    z-index: 1;
+    z-index: 2;
 }
 
 .line2 {
@@ -62,21 +61,21 @@
     width: 1vw;
     height: 14.285714vh;
     margin: auto;
-    z-index: 2;
+    z-index: 3;
     transform:rotate(12deg)
 }
-
 
 .line3 {
     display: flex;
     background-color: rgb(214, 11, 11);
     width: 2.5vw;
-    height: 42.857143vh;
+    height: 71.428571vh;
+    transform: rotate(25deg);
     margin: auto;
-    z-index: 3;
-    transform: rotate(30deg);
-    padding-left: 10px;
+    z-index: 1;
 }
+
+
 
 
 
