@@ -34,6 +34,7 @@
     margin: auto;
     margin-top: 28vh;
     margin-left: 28vw;
+    overflow-x: hidden;
 }
 
 .line1 {
@@ -49,10 +50,11 @@
     display: flex;
     background-color: rgb(255, 255, 255);
     width: 1vw;
-    height: 14.285714vh;
+    height: 24.285714vh;
     margin: auto;
     z-index: 2;
-    transform:rotate(12deg)
+    transform: rotate(12deg);
+    justify-items: left;
 }
 
 

@@ -40,10 +40,14 @@
     display: flex;
     position: absolute;
     border: .25pt solid rgb(255, 255, 255);
-    width: 71.428571vw;
-    height: 71.428571vh;
+    width: 42.857143vw;
+    height: 42.857143vh;
     margin: auto;
     z-index: 4;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%,-50%);
+    overflow: hidden; 
 }
 
 .line1 {
@@ -67,9 +71,9 @@
 
 .line3 {
     display: flex;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(227, 9, 9);
     width: 2.5vw;
-    height: 71.428571vh;
+    height: 300%;
     transform: rotate(25deg);
     margin: auto;
     z-index: 1;
