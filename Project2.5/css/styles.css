@@ -28,7 +28,6 @@
 .square3 {
     display: flex;
     position: absolute;
-    border: .25pt solid rgb(255, 255, 255);
     width: 14.285714vw;
     height: 14.285714vh;
     margin: auto;
@@ -54,6 +53,7 @@
     margin: auto;
     z-index: 2;
     transform: rotate(12deg);
+    margin-top: -1vh;
 }
 
 
