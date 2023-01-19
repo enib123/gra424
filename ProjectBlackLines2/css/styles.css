@@ -50,10 +50,11 @@
     display: flex;
     background-color: rgb(255, 255, 255);
     width: 1vw;
-    height: 16.285714vh;
+    height: 24.285714vh;
     margin: auto;
     z-index: 2;
     transform: rotate(12deg);
+    transform: matrix();
 }
 
 
