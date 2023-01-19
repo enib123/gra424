@@ -54,7 +54,7 @@
     margin: auto;
     z-index: 2;
     transform: rotate(12deg);
-    justify-items: left;
+    transform: matrix();
 }
 
 
