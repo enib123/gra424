@@ -93,3 +93,23 @@
     background-color: rgb(188, 49, 44);
 }
 
+.hover-img {
+    display: flex;
+    width: 42.857143vw;
+    height: 42.857143vh;
+    position: absolute;
+    z-index: 1;
+}
+
+.hover-img img {
+    width: 42.857143vw;
+    height: 42.857143vh;
+    opacity: 0;
+    object-fit: cover;
+    display: block;
+    max-width: 100%;
+}
+
+.hover-img img:hover {
+    opacity: 100;
+}
